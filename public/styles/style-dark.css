@@ -1744,11 +1744,12 @@ blockquote:before, .page .box-1:before, .page .box-2:before, .blog-page .box:bef
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	gap: 10px;
 }
 
 .pt-contact .contact-info .info i {
 	font-size: 30px;
-	color: #fff;
+	/* color: #fff; */
 }
 
 .pt-contact .contact-info .info p {

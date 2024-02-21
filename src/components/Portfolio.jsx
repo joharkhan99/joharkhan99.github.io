@@ -108,7 +108,7 @@ const Portfolio = () => {
   return (
     <>
       <div class="page pt-portfolio" data-simplebar>
-        <section class="container">
+        <section class="container-fluid">
           <div class="header-page mt-70 mob-mt">
             <h2>Portfolio</h2>
             <span></span>
@@ -117,7 +117,7 @@ const Portfolio = () => {
             {/* <!-- Portfolio Item --> */}
 
             {portfolioItems.map((item, index) => (
-              <div class="item col-lg-4 col-sm-6 graphic" key={index}>
+              <div class="item col-lg-4 col-sm-6 graphic w-100" key={index}>
                 <figure>
                   <img alt="" src={item.image} />
                   <figcaption>
@@ -139,24 +139,19 @@ const Portfolio = () => {
             class="d-flex justify-content-center"
           >
             <a
-              href="https://github.com/joharkhan99?tab=repositories"
+              href="https://github.com/joharkhan99"
               target="_blank"
               rel="noreferrer"
               style={{
                 fontSize: "16px",
-                border: "2px solid rgb(51, 125, 120)",
-                padding: "10px 20px",
+                border: "2px solid #12171b",
+                padding: "14px 30px",
                 borderRadius: "37px",
-                background: "rgb(51, 125, 120)",
+                background: "#12171b",
                 color: "white",
               }}
             >
-              <i
-                class="fa-brands fa-github mr-3"
-                style={{
-                  fontFfamily: "Font Awesome 5 Brands",
-                }}
-              ></i>
+              <i class="fab fa-github github mr-3"></i>
               View More on Github
             </a>
           </div>
