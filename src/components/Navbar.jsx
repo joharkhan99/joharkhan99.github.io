@@ -20,7 +20,6 @@ const Navbar = () => {
         </a>
       </div>
 
-      {/* <!-- Left Block --> */}
       <nav class="header-main" data-simplebar>
         <ul>
           {navLinks.map((link, index) => (

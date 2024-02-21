@@ -20,7 +20,7 @@ const Portfolio = () => {
     {
       title: "MovieLand: Free Movie Streaming",
       image: require("../assets/portfolio/movieland.png"),
-      link: "https://play.google.com/store/apps/details?id=com.joharkhan051.MovieLand",
+      link: "https://joharkhan.itch.io/movieland",
     },
     {
       title: "Bueno Express Transport",

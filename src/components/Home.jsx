@@ -35,7 +35,6 @@ const Home = () => {
               borderRadius: "50%",
               objectFit: "cover",
               objectPosition: "center",
-              // border: "5px solid rgb(85 197 190)",
               boxShadow: "0 0 100px 0 rgba(0,0,0,0.2)",
             }}
           />
@@ -45,26 +44,15 @@ const Home = () => {
               I'm a Software Developer on a journey to turn ideas into reality.
             </span>
           </p>
+          <button
+            onClick={() => (window.location.href = "#contact")}
+            className="get-in-touch-btn"
+          >
+            <span>Get in touch</span>
+            {/* <i class="fas fa-arrow-right"></i> */}
+          </button>
         </div>
 
-        {/* <a
-            href="https://play.google.com/store/apps/developer?id=Johar+Khan"
-            style={{
-              background: "rgb(76, 76, 76)",
-              margin: "auto",
-              padding: "10px",
-              borderRadius: "40px",
-              marginTop: "24px",
-              display: "inline-block",
-              width: "130px",
-              textDecoration: "none",
-              color: "white",
-            }}
-          >
-            Play Store
-          </a> */}
-
-        {/* <!-- Social --> */}
         <div class="social">
           <ul>
             <li>
