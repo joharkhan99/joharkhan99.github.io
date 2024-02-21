@@ -1,12 +1,14 @@
 {
   "files": {
-    "main.js": "/portfolio/static/js/main.96a9e3fe.js",
+    "main.js": "/portfolio/static/js/main.7f268067.js",
     "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/me2.jpg": "/portfolio/static/media/me2.800afc2670259f19896f.jpg",
     "static/media/lyel.PNG": "/portfolio/static/media/lyel.e008e7d20b7e206b11b6.PNG",
     "static/media/insol.PNG": "/portfolio/static/media/insol.7f8586afc1bd4735d5a0.PNG",
     "static/media/bueno.png": "/portfolio/static/media/bueno.ff7facefc98f8bb4c038.png",
     "static/media/khyrie.png": "/portfolio/static/media/khyrie.41940839b279b92bb689.png",
     "static/media/me.jpg": "/portfolio/static/media/me.42710cda62918c7da244.jpg",
+    "static/media/JoharKhanResume.pdf": "/portfolio/static/media/JoharKhanResume.e34a8e86ba53e051539d.pdf",
     "static/media/daycare.png": "/portfolio/static/media/daycare.a056ee07ee07f62d90c0.png",
     "static/media/tiffin.png": "/portfolio/static/media/tiffin.faa56f82d1c6b7b7d18d.png",
     "static/media/bme.PNG": "/portfolio/static/media/bme.93a5d87e2e3246b446c4.PNG",
@@ -17,10 +19,10 @@
     "static/media/savour.png": "/portfolio/static/media/savour.23c5cc7bbc1a561cb861.png",
     "static/media/qwqer.png": "/portfolio/static/media/qwqer.ad419cff15d49c44660d.png",
     "index.html": "/portfolio/index.html",
-    "main.96a9e3fe.js.map": "/portfolio/static/js/main.96a9e3fe.js.map",
+    "main.7f268067.js.map": "/portfolio/static/js/main.7f268067.js.map",
     "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.96a9e3fe.js"
+    "static/js/main.7f268067.js"
   ]
 }
