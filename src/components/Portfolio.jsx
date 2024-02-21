@@ -3,15 +3,56 @@ import React from "react";
 const Portfolio = () => {
   const portfolioItems = [
     {
+      title: "NFLUENCER Website",
+      image: require("../assets/portfolio/nfluencermock.png"),
+      link: "https://nfluencer-website.vercel.app/",
+    },
+    {
+      title: "NFLUENCER Mobile App",
+      image: require("../assets/portfolio/nfluencermobile1.png"),
+      link: "https://play.google.com/store/apps/details?id=com.joharkhan051.nfluencer&pcampaignid=web_share",
+    },
+    {
+      title: "Less More Japan",
+      image: require("../assets/portfolio/lessmore.png"),
+      link: "https://less-more-japan.vercel.app/",
+    },
+    {
+      title: "MovieLand: Free Movie Streaming",
+      image: require("../assets/portfolio/movieland.png"),
+      link: "https://play.google.com/store/apps/details?id=com.joharkhan051.MovieLand",
+    },
+    {
+      title: "Bueno Express Transport",
+      image: require("../assets/portfolio/bueno.png"),
+      link: "https://www.buenoexpresstransport.com/",
+    },
+    {
+      title: "LYEL Accountants",
+      image: require("../assets/portfolio/lyel.png"),
+      link: "https://lyel.co.uk/",
+    },
+    {
       title: "TELA",
       image: require("../assets/portfolio/tela.png"),
       link: "#",
       status: "in development",
     },
     {
+      title: "Postlink POS System",
+      image: require("../assets/portfolio/pos.png"),
+      link: "https://postlink-erp.co.za/postlink/",
+      status: "in development",
+    },
+    {
       title: "Likhdy.com",
       image: require("../assets/portfolio/likhdy.png"),
       link: "https://likhdy.com/",
+    },
+    {
+      title: "Savour Foods",
+      image: require("../assets/portfolio/savour.png"),
+      link: "http://bruh.ezyro.com/savour-foods/",
     },
     {
       title: "QWQER",
@@ -23,29 +64,15 @@ const Portfolio = () => {
       image: require("../assets/portfolio/tiffin.png"),
       link: "https://www.tiffinboxcompany.com/",
     },
-    {
-      title: "Bueno Express Transport",
-      image: require("../assets/portfolio/bueno.png"),
-      link: "https://www.buenoexpresstransport.com/",
-    },
-    {
-      title: "MovieLand: Free Movie Streaming",
-      image: require("../assets/portfolio/movieland.png"),
-      link: "https://play.google.com/store/apps/details?id=com.joharkhan051.MovieLand",
-    },
+
     {
       title: "Bullion VTU",
       image: require("../assets/portfolio/bullion.png"),
       link: "https://bullionvtu.com/",
     },
     {
-      title: "Savour Foods",
-      image: require("../assets/portfolio/savour.png"),
-      link: "https://www.savourfoods.com.pk/",
-    },
-    {
       title: "BME Real Estate",
-      image: require("../assets/portfolio/bme.PNG"),
+      image: require("../assets/portfolio/bme.png"),
       link: "https://beaumonde-estate.com/",
     },
     {
@@ -54,13 +81,8 @@ const Portfolio = () => {
       link: "https://winstoninvestment.co.uk",
     },
     {
-      title: "LYEL Accountants",
-      image: require("../assets/portfolio/lyel.PNG"),
-      link: "https://lyel.co.uk/",
-    },
-    {
       title: "InSol",
-      image: require("../assets/portfolio/insol.PNG"),
+      image: require("../assets/portfolio/insol.png"),
       link: "https://infologysolutions.com/",
     },
     {
@@ -73,6 +95,12 @@ const Portfolio = () => {
       title: "Khyrie Allyene",
       image: require("../assets/portfolio/khyrie.png"),
       link: "http://khyriealleyne.com/",
+      status: "closed",
+    },
+    {
+      title: "Music Player Web App",
+      image: require("../assets/portfolio/music.png"),
+      link: "http://bruh.ezyro.com/spotifyclone",
       status: "closed",
     },
   ];
