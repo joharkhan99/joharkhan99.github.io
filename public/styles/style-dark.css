@@ -1404,7 +1404,15 @@ blockquote:before, .page .box-1:before, .page .box-2:before, .blog-page .box:bef
 	height: 100%;
 	top: 0;
 	left: 0;
-	background-color: #fff;
+	background-color: #1ccceb;
+}
+
+.pt-resume .experience .item:after {
+	background-color: #1ccceb !important;
+}
+
+.pt-resume .experience .main h4:before {
+	border: 2px solid #1ccceb !important;
 }
 
 .pt-resume .experience .item:after {
@@ -1417,8 +1425,12 @@ blockquote:before, .page .box-1:before, .page .box-2:before, .blog-page .box:bef
 	background-color: #fff;
 }
 
+.pt-resume .experience .item p {
+	color: #12171b;
+}
+
 .pt-resume .experience .main p {
-	color: #fff;
+	color: #1ccceb;
 	font-size: 12px;
 }
 
@@ -1461,8 +1473,8 @@ blockquote:before, .page .box-1:before, .page .box-2:before, .blog-page .box:bef
 .skills ul li {
 	display: inline-block;
 	font-weight: 100;
-	background-color: rgb(14, 15, 16);
-	padding: 6px 20px;
+	background-color: rgb(205 205 205 / 20%);
+	padding: 6px 10px;
 	margin-right: 10px;
 	margin-bottom: 5px;
 	margin-top: 5px;
@@ -1470,11 +1482,11 @@ blockquote:before, .page .box-1:before, .page .box-2:before, .blog-page .box:bef
 	font-size: 14px;
 	border: 1px solid transparent;
 	transition: .3s;
+	color: #12171b;
 }
 
 .skills ul li:hover {
-	background-color: transparent;
-	border: 1px solid rgba(14, 15, 16, 0.61);
+	background-color: rgb(205 205 205 / 40%);
 }
 
 /* ---------------------------------
