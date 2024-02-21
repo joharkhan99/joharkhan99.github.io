@@ -1,24 +1,22 @@
 import React from "react";
+import PDF from "../assets/JoharKhanResume.pdf";
 
 const About = () => {
   return (
     <div class="page pt-about" data-simplebar>
       <section class="container">
-        {/* <!-- Section Title --> */}
         <div class="header-page mt-70 mob-mt">
           <h2>About Me</h2>
           <span></span>
         </div>
 
-        {/* <!-- Personal Info Start --> */}
         <div class="row mt-100">
-          {/* <!-- Information Block --> */}
           <div class="col-lg-12 col-sm-12">
             <div class="info box-1">
               <div class="row">
                 <div class="col-lg-3 col-sm-4">
                   <div class="photo">
-                    <img alt="" src={require("../assets/me.jpg")} />
+                    <img alt="" src={require("../assets/me2.jpg")} />
                   </div>
                 </div>
                 <div class="col-lg-9 col-sm-8">
@@ -43,7 +41,6 @@ const About = () => {
                   </p>
                 </div>
 
-                {/* <!-- Icon Info --> */}
                 <div class="col-lg-3 col-sm-4">
                   <div class="info-icon">
                     <i class="fas fa-award"></i>
@@ -54,7 +51,6 @@ const About = () => {
                   </div>
                 </div>
 
-                {/* <!-- Icon Info --> */}
                 <div class="col-lg-3 col-sm-4">
                   <div class="info-icon">
                     <i class="fas fa-certificate"></i>
@@ -65,7 +61,6 @@ const About = () => {
                   </div>
                 </div>
 
-                {/* <!-- Icon Info --> */}
                 <div class="col-lg-3 col-sm-4">
                   <div class="info-icon">
                     <i class="fas fa-user-astronaut"></i>
@@ -77,8 +72,9 @@ const About = () => {
                 </div>
                 <div class="col-lg-3 col-sm-12 pt-50">
                   <a
-                    href="img/JoharKhanResume.pdf"
+                    href={PDF}
                     target="_blank"
+                    rel="noopener noreferrer"
                     class="btn-st"
                   >
                     Download CV
@@ -89,16 +85,13 @@ const About = () => {
           </div>
         </div>
 
-        {/* <!-- Service Row Start --> */}
         <div class="row mt-100">
-          {/* <!-- Header Block --> */}
           <div class="col-md-12">
             <div class="header-box mb-50">
               <h3>Services</h3>
             </div>
           </div>
 
-          {/* <!-- Service Item --> */}
           <div class="col-lg-6 col-sm-6">
             <div class="service box-1 mb-40">
               <i class="fas fa-desktop"></i>
@@ -110,7 +103,6 @@ const About = () => {
             </div>
           </div>
 
-          {/* <!-- Service Item --> */}
           <div class="col-lg-6 col-sm-6">
             <div class="service box-2 mb-40">
               <i class="fas fa-laptop-code"></i>
@@ -122,7 +114,6 @@ const About = () => {
             </div>
           </div>
 
-          {/* <!-- Service Item --> */}
           <div class="col-lg-6 col-sm-6">
             <div class="service box-2 mb-40">
               <i class="fas fa-code"></i>
@@ -134,7 +125,6 @@ const About = () => {
             </div>
           </div>
 
-          {/* <!-- Service Item --> */}
           <div class="col-lg-6 col-sm-6">
             <div class="service box-2 mb-40">
               <i class="fas fa-database"></i>
@@ -145,7 +135,6 @@ const About = () => {
             </div>
           </div>
 
-          {/* <!-- Service Item --> */}
           <div class="col-lg-6 col-sm-6">
             <div class="service box-2 mb-40">
               <i class="fas fa-gamepad"></i>
@@ -157,7 +146,6 @@ const About = () => {
             </div>
           </div>
 
-          {/* <!-- Service Item --> */}
           <div class="col-lg-6 col-sm-6">
             <div class="service box-2 mb-40">
               <i class="fas fa-mobile-alt"></i>
