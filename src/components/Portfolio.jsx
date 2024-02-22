@@ -175,9 +175,9 @@ const Portfolio = () => {
                 viewBox="0 0 512 512"
                 width="30"
                 height="30"
-                xml:space="preserve"
+                xmlSpace="preserve"
                 xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink"
+                xmlnsXlink="http://www.w3.org/1999/xlink"
               >
                 <g id="_x31_52-google-play">
                   <g>
