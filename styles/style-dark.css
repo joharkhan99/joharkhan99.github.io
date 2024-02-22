@@ -2460,3 +2460,13 @@ blockquote:before, .page .box-1:before, .page .box-2:before, .blog-page .box:bef
 .get-in-touch-btn:hover {
 	transform: scale(1.1);
 }
+
+@media screen and (max-width: 555px) {
+	.portfolio-buttons {
+		flex-direction: column !important;
+	}
+
+	.portfolio-buttons a {
+		width: 100%;
+	}
+}
