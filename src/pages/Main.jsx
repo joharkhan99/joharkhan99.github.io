@@ -1,5 +1,5 @@
 import React from "react";
-import Preloader from "../components/Preloader";
+// import Preloader from "../components/Preloader";
 import Navbar from "../components/Navbar";
 import Home from "../components/Home";
 import About from "../components/About";
@@ -11,7 +11,7 @@ const Main = () => {
   return (
     <div>
       {/* <!-- preloader --> */}
-      <Preloader />
+      {/* <Preloader /> */}
 
       {/* <!-- Main Site --> */}
       <div id="home">
