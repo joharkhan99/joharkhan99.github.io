@@ -1029,10 +1029,6 @@ blockquote:before, .page .box-1:before, .page .box-2:before, .blog-page .box:bef
 	left: 0;
 	right: 0;
 	bottom: 0;
-	/* opacity: .5; */
-	/* background-color: #12171b; */
-	/* background: rgb(85, 197, 190);
-	background: linear-gradient(90deg, rgba(85, 197, 190, 1) 0%, rgba(85, 172, 197, 1) 100%); */
 	background-color: #ff0000;
 	background-image:
 		radial-gradient(at 40% 20%, #ffb87a 0px, transparent 50%),
