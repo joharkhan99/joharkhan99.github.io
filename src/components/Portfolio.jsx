@@ -3,6 +3,11 @@ import React from "react";
 const Portfolio = () => {
   const portfolioItems = [
     {
+      title: "QuickCal: Calendar & Events App",
+      image: require("../assets/portfolio/quickcal.png"),
+      link: "",
+    },
+    {
       title: "NFLUENCER Website",
       image: require("../assets/portfolio/nfluencermock.png"),
       link: "https://nfluencer-website.vercel.app/",
@@ -84,6 +89,11 @@ const Portfolio = () => {
       title: "InSol",
       image: require("../assets/portfolio/insol.png"),
       link: "https://infologysolutions.com/",
+    },
+    {
+      title: "ZigZag Ball 3D Game",
+      image: require("../assets/portfolio/zigzag.webp"),
+      link: "https://play.google.com/store/apps/details?id=com.ActivGames.ZigZagBall3D",
     },
     {
       title: "DayCare",
