@@ -5,7 +5,7 @@ const Portfolio = () => {
     {
       title: "QuickCal: Calendar & Events App",
       image: require("../assets/portfolio/quickcal.png"),
-      link: "",
+      link: "https://play.google.com/store/apps/details?id=com.jka.quickcal",
     },
     {
       title: "NFLUENCER Website",
