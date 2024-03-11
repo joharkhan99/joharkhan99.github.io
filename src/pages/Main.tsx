@@ -85,7 +85,7 @@ const Main = () => {
   };
 
   return (
-    <div className="w-full h-auto relative overflow-hidden">
+    <div className="w-full h-auto relative overflow-hidden bg-black">
       <div className="relative w-full">
         <Navbar />
         <Home />
@@ -114,17 +114,17 @@ const Main = () => {
                 </button>
               </div>
 
-              <div className="flex sm:flex-row flex-col items-center justify-center gap-4 w-full">
+              <div className="grid sm:grid-cols-4 xs:grid-cols-2 grid-cols-1 items-center justify-center gap-4 w-auto place-content-center place-items-center place-self-center min-w-fit">
                 {contactLinks.map((link, idx) => (
                   <div
                     key={idx}
-                    className="flex flex-row items-center justify-center"
+                    className="flex flex-row items-center justify-center w-full"
                   >
                     <a
                       href={link.href}
                       target="_blank"
                       rel="noreferrer"
-                      className="bg-white backdrop-blur-lg bg-opacity-10 p-3 px-5 rounded-lg flex justify-between items-center text-white gap-5 z-10 hover:bg-white hover:text-black transition-all duration-500 ease-in-out text-sm"
+                      className="bg-white backdrop-blur-lg bg-opacity-10 p-3 px-5 rounded-lg flex justify-between items-center text-white gap-5 z-10 hover:bg-white hover:text-black transition-all duration-500 ease-in-out text-sm w-full"
                       title={link.title}
                     >
                       <span className="text-lg block">{link.icon}</span>
