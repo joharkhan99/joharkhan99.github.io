@@ -144,90 +144,92 @@ const Resume = () => {
   ];
 
   return (
-    <div class="page pt-resume" data-simplebar>
-      <section class="container">
-        <div class="header-page mt-70 mob-mt">
-          <h2>Resume</h2>
-          <span></span>
-        </div>
+    <></>
 
-        <div class="row mt-100">
-          <div class="col-lg-6 col-sm-12">
-            <div class="header-box mb-50">
-              <h3>Experience</h3>
-            </div>
+    // <div class="page pt-resume" data-simplebar>
+    //   <section class="container">
+    //     <div class="header-page mt-70 mob-mt">
+    //       <h2>Resume</h2>
+    //       <span></span>
+    //     </div>
 
-            <div class="experience box-1">
-              {Experience.map((exp, index) => (
-                <div class="item" key={index}>
-                  <div class="main">
-                    <h4>{exp.title}</h4>
-                    <div class="d-flex justify-content-between mb-4 align-content-center">
-                      <p class="m-0">
-                        {exp.company} <br />
-                        {exp.location}
-                      </p>
-                      <p class="m-0">
-                        <i class="far fa-calendar-alt"></i>
-                        {exp.date}
-                      </p>
-                    </div>
-                  </div>
-                  <p>{exp.description}</p>
-                </div>
-              ))}
-            </div>
-          </div>
+    //     <div class="row mt-100">
+    //       <div class="col-lg-6 col-sm-12">
+    //         <div class="header-box mb-50">
+    //           <h3>Experience</h3>
+    //         </div>
 
-          <div class="col-lg-6 col-sm-12">
-            <div>
-              <div class="header-box mb-50 mob-box-mt">
-                <h3>Education</h3>
-              </div>
-              <div class="experience box-2">
-                {Education.map((edu, index) => (
-                  <div class="item" key={index}>
-                    <div class="main">
-                      <h4>{edu.title}</h4>
-                      <div class="d-flex justify-content-between mb-4 align-content-center">
-                        <p class="m-0">
-                          {edu.company} <br />
-                          {edu.location}
-                        </p>
-                        <p class="m-0">
-                          <i class="far fa-calendar-alt"></i>
-                          {edu.date}
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
+    //         <div class="experience box-1">
+    //           {Experience.map((exp, index) => (
+    //             <div class="item" key={index}>
+    //               <div class="main">
+    //                 <h4>{exp.title}</h4>
+    //                 <div class="d-flex justify-content-between mb-4 align-content-center">
+    //                   <p class="m-0">
+    //                     {exp.company} <br />
+    //                     {exp.location}
+    //                   </p>
+    //                   <p class="m-0">
+    //                     <i class="far fa-calendar-alt"></i>
+    //                     {exp.date}
+    //                   </p>
+    //                 </div>
+    //               </div>
+    //               <p>{exp.description}</p>
+    //             </div>
+    //           ))}
+    //         </div>
+    //       </div>
 
-            <div className="mt-50 skills">
-              <div class="header-box mb-50 mob-box-mt">
-                <h3>Skills</h3>
-              </div>
-              <div class="experience box-2">
-                {Skills.map((skill, index) => (
-                  <div class="item" key={index}>
-                    <div class="main">
-                      <h4>{skill.title}</h4>
-                      <ul>
-                        {skill.skills.map((s, index) => (
-                          <li key={index}>{s}</li>
-                        ))}
-                      </ul>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </div>
+    //       <div class="col-lg-6 col-sm-12">
+    //         <div>
+    //           <div class="header-box mb-50 mob-box-mt">
+    //             <h3>Education</h3>
+    //           </div>
+    //           <div class="experience box-2">
+    //             {Education.map((edu, index) => (
+    //               <div class="item" key={index}>
+    //                 <div class="main">
+    //                   <h4>{edu.title}</h4>
+    //                   <div class="d-flex justify-content-between mb-4 align-content-center">
+    //                     <p class="m-0">
+    //                       {edu.company} <br />
+    //                       {edu.location}
+    //                     </p>
+    //                     <p class="m-0">
+    //                       <i class="far fa-calendar-alt"></i>
+    //                       {edu.date}
+    //                     </p>
+    //                   </div>
+    //                 </div>
+    //               </div>
+    //             ))}
+    //           </div>
+    //         </div>
+
+    //         <div className="mt-50 skills">
+    //           <div class="header-box mb-50 mob-box-mt">
+    //             <h3>Skills</h3>
+    //           </div>
+    //           <div class="experience box-2">
+    //             {Skills.map((skill, index) => (
+    //               <div class="item" key={index}>
+    //                 <div class="main">
+    //                   <h4>{skill.title}</h4>
+    //                   <ul>
+    //                     {skill.skills.map((s, index) => (
+    //                       <li key={index}>{s}</li>
+    //                     ))}
+    //                   </ul>
+    //                 </div>
+    //               </div>
+    //             ))}
+    //           </div>
+    //         </div>
+    //       </div>
+    //     </div>
+    //   </section>
+    // </div>
   );
 };
 
