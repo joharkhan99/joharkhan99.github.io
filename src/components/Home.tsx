@@ -131,19 +131,19 @@ const Home = ({
           <div className="absolute sm:top-5 top-5 right-5 hidden sm:block">
             <div className="flex flex-col gap-5">
               <a
-                href=""
+                href="https://www.linkedin.com/in/johar-khan"
                 className="hover:text-white text-[#ccc] transition-colors duration-200"
               >
                 <FaLinkedin color="inherit" size={18} />
               </a>
               <a
-                href=""
+                href="https://github.com/joharkhan99"
                 className="hover:text-white text-[#ccc] transition-colors duration-200"
               >
                 <FaGithub size={18} />
               </a>
               <a
-                href=""
+                href="mailto:joharkhan1999@gmail.com"
                 className="hover:text-white text-[#ccc] transition-colors duration-200"
               >
                 <MdAlternateEmail size={18} />
@@ -158,10 +158,6 @@ const Home = ({
             <p className="sm:text-xl text-base mt-4 text-white font-normal inter-var text-center">
               I'm a Software Developer on a journey to turn ideas into reality.
             </p>
-
-            {/* 
-            on click go to the contact section
-            */}
             <button
               className="backdrop-blur-lg mt-5 p-3 px-5 bg-white bg-opacity-10 rounded-full hover:bg-white hover:text-black text-white font-semibold text-sm transition-all duration-500 flex items-center gap-2 active:scale-90"
               onClick={() => {
