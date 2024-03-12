@@ -10,6 +10,7 @@ import { FaRegCopy } from "react-icons/fa6";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { SiFiverr } from "react-icons/si";
 import { FaGooglePlay } from "react-icons/fa";
+import { TracingBeam } from "../components/aceternity/tracing-beam.tsx";
 
 const Main = () => {
   const people = [
