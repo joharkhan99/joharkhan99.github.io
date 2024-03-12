@@ -3,8 +3,8 @@ import React from "react";
 import Navbar from "../components/Navbar.tsx";
 import Home from "../components/Home.tsx";
 import About from "../components/About.tsx";
-import Resume from "../components/Resume";
-import Portfolio from "../components/Portfolio";
+import Resume from "../components/Resume.tsx";
+import Portfolio from "../components/Portfolio.tsx";
 import Contact from "../components/Contact.tsx";
 import { FaRegCopy } from "react-icons/fa6";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
@@ -96,6 +96,14 @@ const Main = () => {
         <About />
       </div>
 
+      {/* <div className="relative w-full">
+        <Resume />
+      </div> */}
+
+      <div className="relative w-full h-full">
+        <Portfolio />
+      </div>
+
       <div className="relative w-full" id="contact">
         <div className="sm:h-screen h-auto w-full bg-neutral-950 relative flex flex-col items-center justify-center antialiased sm:pt-0 p-10">
           <div className="mx-auto p-4 sm:pb-4 pb-24 w-full">
@@ -108,7 +116,7 @@ const Main = () => {
             </p>
 
             <div className="flex flex-col justify-center items-center gap-3 mt-5 w-full">
-              <div className="bg-white backdrop-blur-lg bg-opacity-10 p-3 px-5 rounded-lg flex justify-between items-center text-white gap-5 z-10">
+              <div className="bg-zinc-400 backdrop-blur-lg bg-opacity-10 p-3 px-5 rounded-lg flex justify-between items-center text-white gap-5 z-10">
                 <span className="text-sm">joharkhan1999@gmail.com</span>
                 <button
                   title="Copy Email"
@@ -129,7 +137,7 @@ const Main = () => {
                       href={link.href}
                       target="_blank"
                       rel="noreferrer"
-                      className="bg-white backdrop-blur-lg bg-opacity-10 p-3 px-5 rounded-lg flex justify-between items-center text-white gap-3 z-10 hover:bg-white hover:text-black transition-all duration-500 ease-in-out text-sm w-full"
+                      className="bg-zinc-400 backdrop-blur-lg bg-opacity-10 p-3 px-5 rounded-lg flex justify-between items-center text-white gap-3 z-10 hover:bg-white hover:text-black transition-all duration-500 ease-in-out text-sm w-full"
                       title={link.title}
                     >
                       <span className="text-lg block">{link.icon}</span>
