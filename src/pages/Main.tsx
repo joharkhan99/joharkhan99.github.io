@@ -2,7 +2,7 @@ import React from "react";
 // import Preloader from "../components/Preloader";
 import Navbar from "../components/Navbar.tsx";
 import Home from "../components/Home.tsx";
-import About from "../components/About";
+import About from "../components/About.tsx";
 import Resume from "../components/Resume";
 import Portfolio from "../components/Portfolio";
 import Contact from "../components/Contact.tsx";
@@ -86,9 +86,13 @@ const Main = () => {
 
   return (
     <div className="w-full h-auto relative overflow-hidden bg-black">
-      <div className="relative w-full">
+      <div className="relative w-full bg-black">
         <Navbar />
         <Home />
+      </div>
+
+      <div className="relative w-full">
+        <About />
       </div>
 
       <div className="relative w-full" id="contact">
@@ -124,7 +128,7 @@ const Main = () => {
                       href={link.href}
                       target="_blank"
                       rel="noreferrer"
-                      className="bg-white backdrop-blur-lg bg-opacity-10 p-3 px-5 rounded-lg flex justify-between items-center text-white gap-5 z-10 hover:bg-white hover:text-black transition-all duration-500 ease-in-out text-sm w-full"
+                      className="bg-white backdrop-blur-lg bg-opacity-10 p-3 px-5 rounded-lg flex justify-between items-center text-white gap-3 z-10 hover:bg-white hover:text-black transition-all duration-500 ease-in-out text-sm w-full"
                       title={link.title}
                     >
                       <span className="text-lg block">{link.icon}</span>

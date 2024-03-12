@@ -112,7 +112,7 @@ const Home = ({
   }, []);
 
   return (
-    <div className="relative">
+    <div className="relative" id="home">
       <div
         className={cn(
           "h-screen flex flex-col items-center justify-center",
@@ -155,7 +155,7 @@ const Home = ({
             <p className="text-5xl lg:text-7xl text-white font-bold inter-var text-center">
               Hi, I'm Johar Khan
             </p>
-            <p className="sm:text-xl text-base mt-4 text-white font-normal inter-var text-center">
+            <p className="sm:text-lg text-base mt-4 text-white font-normal inter-var text-center">
               I'm a Software Developer on a journey to turn ideas into reality.
             </p>
             <button
