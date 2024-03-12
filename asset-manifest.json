@@ -1,17 +1,37 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.78ed8d2f.css",
-    "main.js": "/portfolio/static/js/main.74a04554.js",
+    "main.css": "/portfolio/static/css/main.46cb9e29.css",
+    "main.js": "/portfolio/static/js/main.5f499ed6.js",
     "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/lyel.png": "/portfolio/static/media/lyel.e008e7d20b7e206b11b6.png",
+    "static/media/movieland.png": "/portfolio/static/media/movieland.f7dd803853fe8ae6750d.png",
+    "static/media/insol.png": "/portfolio/static/media/insol.7f8586afc1bd4735d5a0.png",
+    "static/media/bueno.png": "/portfolio/static/media/bueno.ff7facefc98f8bb4c038.png",
+    "static/media/nfluencermock.png": "/portfolio/static/media/nfluencermock.49ddbb76f6ca1162769d.png",
+    "static/media/nfluencermobile1.png": "/portfolio/static/media/nfluencermobile1.48fbeb5fc3cb4626b692.png",
+    "static/media/quickcal.png": "/portfolio/static/media/quickcal.dee577f987b3ffbdd537.png",
+    "static/media/khyrie.png": "/portfolio/static/media/khyrie.41940839b279b92bb689.png",
+    "static/media/lessmore.png": "/portfolio/static/media/lessmore.9576ba46462a1efc6ff3.png",
     "static/media/me.jpg": "/portfolio/static/media/me.42710cda62918c7da244.jpg",
     "static/media/JoharKhanResume.pdf": "/portfolio/static/media/JoharKhanResume.e34a8e86ba53e051539d.pdf",
+    "static/media/daycare.png": "/portfolio/static/media/daycare.a056ee07ee07f62d90c0.png",
+    "static/media/tiffin.png": "/portfolio/static/media/tiffin.faa56f82d1c6b7b7d18d.png",
+    "static/media/bme.png": "/portfolio/static/media/bme.93a5d87e2e3246b446c4.png",
+    "static/media/pos.png": "/portfolio/static/media/pos.67094303a49c76bb0535.png",
+    "static/media/tela.png": "/portfolio/static/media/tela.fbb79fc09ae120343045.png",
+    "static/media/bullion.png": "/portfolio/static/media/bullion.7164f0fa7e8adadf732e.png",
+    "static/media/music.png": "/portfolio/static/media/music.0b376ef47b90b24be52e.png",
+    "static/media/winstoninvestment.png": "/portfolio/static/media/winstoninvestment.ece41e87a6302b16b3cf.png",
+    "static/media/zigzag.webp": "/portfolio/static/media/zigzag.0a80a8b8adb3b2432c05.webp",
+    "static/media/savour.png": "/portfolio/static/media/savour.23c5cc7bbc1a561cb861.png",
+    "static/media/qwqer.png": "/portfolio/static/media/qwqer.ad419cff15d49c44660d.png",
     "index.html": "/portfolio/index.html",
-    "main.78ed8d2f.css.map": "/portfolio/static/css/main.78ed8d2f.css.map",
-    "main.74a04554.js.map": "/portfolio/static/js/main.74a04554.js.map",
+    "main.46cb9e29.css.map": "/portfolio/static/css/main.46cb9e29.css.map",
+    "main.5f499ed6.js.map": "/portfolio/static/js/main.5f499ed6.js.map",
     "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.78ed8d2f.css",
-    "static/js/main.74a04554.js"
+    "static/css/main.46cb9e29.css",
+    "static/js/main.5f499ed6.js"
   ]
 }
