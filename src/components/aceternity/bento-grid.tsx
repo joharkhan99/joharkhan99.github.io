@@ -36,7 +36,12 @@ export const BentoGridItem = ({ item, className }) => {
         </div>
         <div className="font-sans font-normal text-neutral-600 text-xs dark:text-neutral-300">
           <p>{item.description}</p>
-          <a href={item.link} className="mt-3 inline-block text-white">
+          <a
+            href={item.link}
+            className="mt-3 inline-block text-white"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <span className="group-hover/bento:underline">View More</span>
             <GoArrowUpRight className="inline-block ml-1" />
           </a>
