@@ -4,6 +4,7 @@ import { ParallaxScroll } from "./aceternity/parallax-scroll.tsx";
 import { LayoutGrid } from "./aceternity/layout-grid.tsx";
 import { DirectionAwareHover } from "./aceternity/direction-aware.tsx";
 import { BentoGrid, BentoGridItem } from "./aceternity/bento-grid.tsx";
+import { GoArrowUpRight } from "react-icons/go";
 
 const Portfolio = () => {
   const portfolioItems = [
@@ -183,7 +184,7 @@ const Portfolio = () => {
   ];
 
   return (
-    <div id="portfolio" className="relative py-6 pt-14 h-full">
+    <div id="portfolio" className="relative py-6 pt-14 h-full pb-14">
       <div className="container mx-auto px-8 relative">
         <div className="relative z-10 text-5xl md:text-7xl  bg-clip-text text-transparent bg-gradient-to-b from-neutral-100 to-neutral-500  text-center font-sans font-bold">
           Portfolio
@@ -203,29 +204,18 @@ const Portfolio = () => {
           ))}
         </BentoGrid>
 
-        {/* <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-5 mt-14 place-items-center">
-          {portfolioItems.map((item, index) => (
-            <DirectionAwareHover imageUrl={item.image} key={index}>
-              <p className="font-bold text-xl">{item.title}</p>
-              <p className="font-normal text-sm mt-2">
-                <a
-                  href={item.link}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="block"
-                >
-                  <div className="flex gap-2 items-center p-2 rounded-md text-sm text-black bg-white ">
-                    <span>View More</span>
-                    <GoArrowUpRight />
-                  </div>
-                </a>
-              </p>
-            </DirectionAwareHover>
-          ))}
-        </div> */}
+        <div className="flex justify-center items-center mt-14">
+          <a
+            href="https://github.com/joharkhan99"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-4 py-3 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold flex items-center gap-1 group"
+          >
+            <span>View More on GitHub</span>
+            <GoArrowUpRight className="group-hover:-translate-y-0.5 group-hover:translate-x-0.5 transition duration-100" />
+          </a>
+        </div>
       </div>
-
-      {/* <LayoutGrid cards={portfolioItems} /> */}
     </div>
   );
 };
