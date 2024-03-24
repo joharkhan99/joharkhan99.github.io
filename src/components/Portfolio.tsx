@@ -1,13 +1,16 @@
 import React from "react";
-import { Boxes, BoxesCore } from "./aceternity/bg-boxes.tsx";
-import { ParallaxScroll } from "./aceternity/parallax-scroll.tsx";
-import { LayoutGrid } from "./aceternity/layout-grid.tsx";
-import { DirectionAwareHover } from "./aceternity/direction-aware.tsx";
 import { BentoGrid, BentoGridItem } from "./aceternity/bento-grid.tsx";
 import { GoArrowUpRight } from "react-icons/go";
 
 const Portfolio = () => {
   const portfolioItems = [
+    {
+      title: "GenieVision: AI Text & Image",
+      image: require("../assets/portfolio/genievision.png"),
+      link: "https://play.google.com/store/apps/details?id=com.jka.genievision",
+      description:
+        "Ask questions, explain images, get recipes & more! Powered by AI.",
+    },
     {
       title: "QuickCal: Calendar & Events App",
       image: require("../assets/portfolio/quickcal.png"),
