@@ -149,7 +149,7 @@ const Main = () => {
             </div>
           </div>
 
-          <p className="absolute sm:bottom-10 bottom-5 text-xs text-neutral-500 z-10">
+          <p className="absolute sm:bottom-10 bottom-5 text-[10px] text-neutral-500 z-10">
             Made with <span className="animate-pulse">❤️</span> by Johar Khan
             using{" "}
             <a
