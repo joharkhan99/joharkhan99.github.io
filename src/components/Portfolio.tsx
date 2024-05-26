@@ -5,6 +5,13 @@ import { GoArrowUpRight } from "react-icons/go";
 const Portfolio = () => {
   const portfolioItems = [
     {
+      title: "Unit Guru: Convert any Unit",
+      image: require("../assets/portfolio/unitguru.png"),
+      link: "https://play.google.com/store/apps/details?id=com.jka.unitguru",
+      description:
+        "Unit Guru is your go-to app for quick and accurate unit conversions. Whether you're dealing with mass, area, length, volume, temperature, or any other unit, Unit Guru has got you covered!",
+    },
+    {
       title: "GenieVision: AI Text & Image",
       image: require("../assets/portfolio/genievision.png"),
       link: "https://play.google.com/store/apps/details?id=com.jka.genievision",
