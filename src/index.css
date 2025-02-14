@@ -16,3 +16,8 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
+
+body {
+  background-color: #222;
+  color: white;
+}
