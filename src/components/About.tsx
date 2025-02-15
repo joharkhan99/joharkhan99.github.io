@@ -3,19 +3,30 @@ import React from "react";
 const About = () => {
   return (
     <section id="about">
-      <div className="flex flex-row items-center gap-5">
-        <div className="">
-          <img
-            src={require("../assets/me2.jpg")}
-            alt="Johar Khan"
-            className="rounded-full w-24 h-24 object-cover"
-          />
+      <div className="flex sm:flex-row sm:items-center sm:justify-between flex-col flex-wrap gap-y-2">
+        <div className="flex flex-row items-center gap-5">
+          <div className="">
+            <img
+              src={require("../assets/me2.jpg")}
+              alt="Johar Khan"
+              className="rounded-full w-24 h-24 object-cover"
+            />
+          </div>
+
+          <div className="flex flex-col items-start justify-center">
+            <h1 className="text-color1 text-2xl font-bold">Johar Khan</h1>
+            <p className="text-color2 text-sm">Software Engineer</p>
+          </div>
         </div>
 
-        <div className="flex flex-col items-start justify-center">
-          <h1 className="text-color1 text-2xl font-bold">Johar Khan</h1>
-          <p className="text-color2 text-sm">Software Engineer</p>
-        </div>
+        <a
+          href="https://www.linkedin.com/in/johar-khan"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="items-center gap-2 text-sm text-white bg-gradient-to-r from-green-500 to-teal-600 rounded-full px-1 py-1.5 shadow-lg hover:from-teal-600 hover:to-green-500 transition-all duration-500 ease-in-out text-center block"
+        >
+          ⚡ Discuss your Project!
+        </a>
       </div>
 
       <div className="text-sm my-10">

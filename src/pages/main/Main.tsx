@@ -2,6 +2,7 @@ import React from "react";
 import About from "../../components/About.tsx";
 import Experience from "../../components/Experience.tsx";
 import Education from "../../components/Education.tsx";
+import Contact from "../../components/Contact.tsx";
 
 const Main = () => {
   return (
@@ -10,6 +11,7 @@ const Main = () => {
         <About />
         <Experience />
         <Education />
+        <Contact />
       </div>
     </main>
   );
