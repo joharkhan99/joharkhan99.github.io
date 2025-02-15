@@ -73,7 +73,7 @@ const Contact = () => {
           </a>
 
           <a
-            href="https://play.google.com/store/apps/developer?id=Johar+Khan"
+            href="https://play.google.com/store/apps/dev?id=7516290902608936170"
             target="_blank"
             className="flex flex-row items-center gap-0 text-color2 hover:text-color1 hover:bg-[#2b2b2b] rounded-md p-2 gap-x-2 transition-colors duration-200"
           >

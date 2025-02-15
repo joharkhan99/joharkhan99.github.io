@@ -65,6 +65,48 @@ const Experience = () => {
         "PostgreSQL",
         "Azure",
       ],
+      projects: [
+        {
+          id: "KasparProject1",
+          name: "TELA",
+          tagline: "Network Benchmarking Product",
+          image: require("../assets/portfolio/tela.png"),
+          description:
+            "TELA Network Benchmarking Product. TELA Network Benchmarking Product. TELA Network Benchmarking Product.",
+        },
+        {
+          id: "KasparProject2",
+          name: "TiffinBox",
+          tagline: "Network Benchmarking Product",
+          image: require("../assets/portfolio/tiffin.png"),
+          description:
+            "TELA Network Benchmarking Product. TELA Network Benchmarking Product. TELA Network Benchmarking Product.",
+        },
+        {
+          id: "KasparProject3",
+          name: "Post Link POS",
+          tagline: "Network Benchmarking Product",
+          image: require("../assets/portfolio/pos.png"),
+          description:
+            "TELA Network Benchmarking Product. TELA Network Benchmarking Product. TELA Network Benchmarking Product.",
+        },
+        {
+          id: "KasparProject4",
+          name: "Qwqer",
+          tagline: "Network Benchmarking Product",
+          image: require("../assets/portfolio/qwqer.png"),
+          description:
+            "TELA Network Benchmarking Product. TELA Network Benchmarking Product. TELA Network Benchmarking Product.",
+        },
+        {
+          id: "KasparProject5",
+          name: "Cars Management System",
+          tagline: "Network Benchmarking Product",
+          image: require("../assets/portfolio/tela.png"),
+          description:
+            "TELA Network Benchmarking Product. TELA Network Benchmarking Product. TELA Network Benchmarking Product.",
+        },
+      ],
     },
     {
       id: "Job4",
@@ -81,6 +123,40 @@ const Experience = () => {
         "JQuery",
         "Bootstrap CSS",
         "MySQL",
+      ],
+      projects: [
+        {
+          id: "CPR1",
+          name: "Savour Foods",
+          tagline: "Network Benchmarking Product",
+          image: require("../assets/portfolio/savour.png"),
+          description:
+            "TELA Network Benchmarking Product. TELA Network Benchmarking Product. TELA Network Benchmarking Product.",
+        },
+        {
+          id: "CPR2",
+          name: "BME",
+          tagline: "Network Benchmarking Product",
+          image: require("../assets/portfolio/bme.png"),
+          description:
+            "TELA Network Benchmarking Product. TELA Network Benchmarking Product. TELA Network Benchmarking Product.",
+        },
+        {
+          id: "CPR3",
+          name: "Winston Investment",
+          tagline: "Network Benchmarking Product",
+          image: require("../assets/portfolio/winstoninvestment.png"),
+          description:
+            "TELA Network Benchmarking Product. TELA Network Benchmarking Product. TELA Network Benchmarking Product.",
+        },
+        {
+          id: "CPR4",
+          name: "Medikay Cardiac Hospital",
+          tagline: "Network Benchmarking Product",
+          image: require("../assets/portfolio/medikay.png"),
+          description:
+            "TELA Network Benchmarking Product. TELA Network Benchmarking Product. TELA Network Benchmarking Product.",
+        },
       ],
     },
   ];
@@ -115,6 +191,30 @@ const Experience = () => {
                       __html: item.description,
                     }}
                   />
+
+                  <div className="mb-3 flex flex-row items-center gap-0 justify-start">
+                    {item.projects?.map((project) => {
+                      return (
+                        <button
+                          key={project.id}
+                          onClick={() =>
+                            alert(
+                              "Please wait. I am working on the project details part!"
+                            )
+                          }
+                          className="w-24 h-16 rounded-md overflow-hidden cursor-pointer border-2 border-transparent hover:border-teal-400 p-0.5"
+                        >
+                          <img
+                            src={project.image}
+                            alt={project.name}
+                            title="Details Coming Soon!"
+                            className="w-full h-full object-cover rounded-sm"
+                          />
+                        </button>
+                      );
+                    })}
+                  </div>
+
                   <div className="flex flex-row gap-1 items-center justify-start text-xs flex-wrap">
                     {item.stack.map((skill, index) => (
                       <span

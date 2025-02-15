@@ -59,6 +59,14 @@ const About = () => {
           That’s pretty much me – straightforward, curious, and always building.
         </p>
       </div>
+
+      <div className="flex flex-row">
+        <img
+          src={require("../assets/hike.png")}
+          alt="Johar Khan"
+          className="object-contain h-[350px] w-full"
+        />
+      </div>
     </section>
   );
 };
