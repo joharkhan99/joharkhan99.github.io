@@ -1,14 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.2f67c1e7.css",
-    "main.js": "/static/js/main.ae5d5deb.js",
+    "main.css": "/static/css/main.94011d4c.css",
+    "main.js": "/static/js/main.325f3e9f.js",
+    "static/media/hike.png": "/static/media/hike.49ae05e781842f70e9f1.png",
+    "static/media/winstoninvestment.png": "/static/media/winstoninvestment.537872d03c336fa90837.png",
+    "static/media/bme.png": "/static/media/bme.ec98e642c5de9093f11d.png",
+    "static/media/medikay.png": "/static/media/medikay.057d591957493cb8e652.png",
+    "static/media/savour.png": "/static/media/savour.964dd78b200f46b93391.png",
     "static/media/me2.jpg": "/static/media/me2.6b019cc3a84fa54b7cc6.jpg",
+    "static/media/tiffin.png": "/static/media/tiffin.faa56f82d1c6b7b7d18d.png",
+    "static/media/pos.png": "/static/media/pos.67094303a49c76bb0535.png",
+    "static/media/tela.png": "/static/media/tela.fbb79fc09ae120343045.png",
+    "static/media/qwqer.png": "/static/media/qwqer.94e90adaf77195d8ec43.png",
     "index.html": "/index.html",
-    "main.2f67c1e7.css.map": "/static/css/main.2f67c1e7.css.map",
-    "main.ae5d5deb.js.map": "/static/js/main.ae5d5deb.js.map"
+    "main.94011d4c.css.map": "/static/css/main.94011d4c.css.map",
+    "main.325f3e9f.js.map": "/static/js/main.325f3e9f.js.map"
   },
   "entrypoints": [
-    "static/css/main.2f67c1e7.css",
-    "static/js/main.ae5d5deb.js"
+    "static/css/main.94011d4c.css",
+    "static/js/main.325f3e9f.js"
   ]
 }
