@@ -10,11 +10,13 @@ const Contact = () => {
   const [isCopied, setIsCopied] = useState(false);
   const copy = () => {
     const email = "joharkhan1999@gmail.com";
-    setIsCopied(true);
-    navigator.clipboard.writeText(email);
-    setTimeout(() => {
-      setIsCopied(false);
-    }, 2000);
+    if (navigator.clipboard) {
+      setIsCopied(true);
+      navigator.clipboard.writeText(email);
+      setTimeout(() => {
+        setIsCopied(false);
+      }, 2000);
+    }
   };
   return (
     <section id="education" className="my-12">
