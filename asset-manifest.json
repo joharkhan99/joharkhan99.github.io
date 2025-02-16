@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.9f782fce.css",
-    "main.js": "/static/js/main.c9057c9e.js",
+    "main.css": "/static/css/main.9636a143.css",
+    "main.js": "/static/js/main.df892a74.js",
+    "static/media/movieland.png": "/static/media/movieland.f7dd803853fe8ae6750d.png",
     "static/media/hike.png": "/static/media/hike.49ae05e781842f70e9f1.png",
     "static/media/winstoninvestment.png": "/static/media/winstoninvestment.537872d03c336fa90837.png",
     "static/media/bme.png": "/static/media/bme.ec98e642c5de9093f11d.png",
@@ -9,6 +10,11 @@
     "static/media/savour.png": "/static/media/savour.964dd78b200f46b93391.png",
     "static/media/me2.jpg": "/static/media/me2.6b019cc3a84fa54b7cc6.jpg",
     "static/media/bueno.png": "/static/media/bueno.ff7facefc98f8bb4c038.png",
+    "static/media/nfluencermock.png": "/static/media/nfluencermock.49ddbb76f6ca1162769d.png",
+    "static/media/nfluencermobile1.png": "/static/media/nfluencermobile1.48fbeb5fc3cb4626b692.png",
+    "static/media/quickcal.png": "/static/media/quickcal.dee577f987b3ffbdd537.png",
+    "static/media/unitguru.png": "/static/media/unitguru.fef729a229423c01ccfb.png",
+    "static/media/genievision.png": "/static/media/genievision.4a6049aac88e4469dfb4.png",
     "static/media/lessmore.png": "/static/media/lessmore.9576ba46462a1efc6ff3.png",
     "static/media/tiffin.png": "/static/media/tiffin.faa56f82d1c6b7b7d18d.png",
     "static/media/pos.png": "/static/media/pos.67094303a49c76bb0535.png",
@@ -17,11 +23,11 @@
     "static/media/qwqer.png": "/static/media/qwqer.94e90adaf77195d8ec43.png",
     "static/media/bullion.png": "/static/media/bullion.7164f0fa7e8adadf732e.png",
     "index.html": "/index.html",
-    "main.9f782fce.css.map": "/static/css/main.9f782fce.css.map",
-    "main.c9057c9e.js.map": "/static/js/main.c9057c9e.js.map"
+    "main.9636a143.css.map": "/static/css/main.9636a143.css.map",
+    "main.df892a74.js.map": "/static/js/main.df892a74.js.map"
   },
   "entrypoints": [
-    "static/css/main.9f782fce.css",
-    "static/js/main.c9057c9e.js"
+    "static/css/main.9636a143.css",
+    "static/js/main.df892a74.js"
   ]
 }
