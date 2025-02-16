@@ -64,6 +64,7 @@ const About = () => {
         <img
           src={require("../assets/hike.png")}
           alt="Johar Khan"
+          loading="lazy"
           className="object-contain h-[350px] w-full"
         />
       </div>

@@ -1,0 +1,14 @@
+#education img {
+  width: 100%;
+}
+
+#education main {
+  columns: 250px;
+  column-gap: 10px;
+  row-gap: 5px;
+}
+
+#education article {
+  break-inside: avoid-column;
+  margin-bottom: 10px;
+}

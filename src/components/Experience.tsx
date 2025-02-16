@@ -26,12 +26,12 @@ const Item = ({ item, openModal }) => {
               <button
                 key={project.id}
                 onClick={() => openModal(project)}
-                className="w-24 h-16 rounded-md overflow-hidden cursor-pointer border-2 border-transparent hover:border-teal-400 p-0.5"
+                className="w-[130px] h-[80px] rounded-md overflow-hidden cursor-pointer border-2 border-transparent hover:border-teal-400 p-0.5"
               >
                 <img
                   src={project.image}
                   alt={project.name}
-                  title="Details Coming Soon!"
+                  title="Open Project Details"
                   className="w-full h-full object-cover rounded-sm"
                 />
               </button>
