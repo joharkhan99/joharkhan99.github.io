@@ -21,16 +21,18 @@ const Contact = () => {
   return (
     <section id="education" className="my-12">
       <div className="text-sm">
-        <p className="mb-5 text-color1">Get in touch</p>
+        <p className="mb-5 dark:text-color1 text-lightColor1">Get in touch</p>
 
         <div
-          className="flex flex-row justify-between items-center w-full rounded-md bg-[#2b2b2b] p-3 cursor-pointer hover:bg-[#313131] shadow-sm"
+          className="flex flex-row justify-between items-center w-full rounded-md p-3 cursor-pointer dark:bg-[#2b2b2b] dark:hover:bg-[#313131] bg-[#f3f4f6] hover:bg-[#e5e7eb] shadow-sm"
           onClick={copy}
         >
-          <span className="text-color1">joharkhan1999@gmail.com</span>
+          <span className="dark:text-color1 text-lightColor1">
+            joharkhan1999@gmail.com
+          </span>
           <div
             className={`flex flex-row items-center gap-x-2 ${
-              isCopied ? "text-teal-400" : "text-color2"
+              isCopied ? "text-teal-600" : "dark:text-color2 text-lightColor2"
             }`}
           >
             <span>{isCopied ? "Copied!" : "Copy"}</span>
@@ -44,7 +46,8 @@ const Contact = () => {
           <a
             href="https://github.com/joharkhan99"
             target="_blank"
-            className="flex flex-row items-center gap-0 text-color2 hover:text-color1 hover:bg-[#2b2b2b] rounded-md p-2 gap-x-2 transition-colors duration-200"
+            rel="noreferrer"
+            className="flex flex-row items-center gap-0 dark:text-color2 text-lightColor2 dark:hover:text-color1 hover:text-lightColor1 dark:hover:bg-[#2b2b2b] hover:bg-[#f3f4f6] rounded-md p-2 gap-x-2 transition-colors duration-200"
           >
             <div className="rounded-md shadow-sm">
               <PiGithubLogoLight size={20} />
@@ -55,7 +58,8 @@ const Contact = () => {
           <a
             href="https://www.linkedin.com/in/johar-khan"
             target="_blank"
-            className="flex flex-row items-center gap-0 text-color2 hover:text-color1 hover:bg-[#2b2b2b] rounded-md p-2 gap-x-2 transition-colors duration-200"
+            rel="noreferrer"
+            className="flex flex-row items-center gap-0 dark:text-color2 text-lightColor2 dark:hover:text-color1 hover:text-lightColor1 dark:hover:bg-[#2b2b2b] hover:bg-[#f3f4f6] rounded-md p-2 gap-x-2 transition-colors duration-200"
           >
             <div className="rounded-md shadow-sm">
               <CiLinkedin size={20} />
@@ -66,7 +70,8 @@ const Contact = () => {
           <a
             href="https://www.fiverr.com/joharkhan"
             target="_blank"
-            className="flex flex-row items-center gap-0 text-color2 hover:text-color1 hover:bg-[#2b2b2b] rounded-md p-2 gap-x-2 transition-colors duration-200"
+            rel="noreferrer"
+            className="flex flex-row items-center gap-0 dark:text-color2 text-lightColor2 dark:hover:text-color1 hover:text-lightColor1 dark:hover:bg-[#2b2b2b] hover:bg-[#f3f4f6] rounded-md p-2 gap-x-2 transition-colors duration-200"
           >
             <div className="rounded-md shadow-sm">
               <TbBrandFiverr size={20} />
@@ -77,7 +82,8 @@ const Contact = () => {
           <a
             href="https://play.google.com/store/apps/dev?id=7516290902608936170"
             target="_blank"
-            className="flex flex-row items-center gap-0 text-color2 hover:text-color1 hover:bg-[#2b2b2b] rounded-md p-2 gap-x-2 transition-colors duration-200"
+            rel="noreferrer"
+            className="flex flex-row items-center gap-0 dark:text-color2 text-lightColor2 dark:hover:text-color1 hover:text-lightColor1 dark:hover:bg-[#2b2b2b] hover:bg-[#f3f4f6] rounded-md p-2 gap-x-2 transition-colors duration-200"
           >
             <div className="rounded-md shadow-sm">
               <PiGooglePlayLogoLight size={20} />

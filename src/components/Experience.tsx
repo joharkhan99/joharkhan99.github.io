@@ -3,18 +3,19 @@ import ProjectModal from "./ProjectModal.tsx";
 
 const Item = ({ item, openModal }) => {
   return (
-    <div className="bg-[#2b2b2b] hover:bg-[#313131] transition-all duration-200 p-3 rounded-md shadow-sm">
+    <div className="dark:bg-[#2b2b2b] dark:hover:bg-[#313131] bg-[#f3f4f6] hover:bg-[#e5e7eb] transition-all duration-200 p-3 rounded-md shadow-sm">
       <div className="flex flex-col items-start gap-y-0.5">
         <div className="flex flex-row items-center justify-between w-full text-xs">
-          <p className="text-color3">{item.location}</p>
-          <p className="text-color3">{item.duration}</p>
+          <p className="dark:text-color3 text-lightColor3">{item.location}</p>
+          <p className="dark:text-color3 text-lightColor3">{item.duration}</p>
         </div>
-        <p>
-          {item.title} <span className="text-color3">at</span>
+        <p className="dark:text-color1 text-lightColor1">
+          {item.title}{" "}
+          <span className="dark:text-color3 text-lightColor3">at</span>
           {` ${item.company}`}
         </p>
         <div
-          className="text-color2 my-3"
+          className="dark:text-color2 text-lightColor2 my-3"
           dangerouslySetInnerHTML={{
             __html: item.description,
           }}
@@ -43,7 +44,7 @@ const Item = ({ item, openModal }) => {
           {item.stack.map((skill, index) => (
             <span
               key={index}
-              className="rounded-full bg-[#474747eb] p-1 px-2 text-color2"
+              className="rounded-full dark:bg-[#474747eb] bg-[#dcdee3] p-1 px-2 dark:text-color2 text-lightColor2"
             >
               {skill}
             </span>
@@ -262,8 +263,10 @@ const Experience = () => {
   return (
     <section id="experience" className="my-12">
       <div className="text-sm">
-        <p className="mb-1 text-color1">Employment History</p>
-        <p className="text-color2">
+        <p className="mb-1 dark:text-color1 text-lightColor1">
+          Employment History
+        </p>
+        <p className="dark:text-color2 text-lightColor2">
           I’ve worked with startups, service-based companies, and freelance
           clients—each with its own challenges and lessons. Here’s a quick look.
         </p>

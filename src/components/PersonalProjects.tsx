@@ -84,24 +84,31 @@ const PersonalProjects = () => {
   return (
     <section id="education" className="my-12">
       <div className="text-sm">
-        <p className="mb-1 text-color1">Personal Projects</p>
+        <p className="mb-1 dark:text-color1 text-lightColor1">
+          Personal Projects
+        </p>
         <div className="my-5">
           <main>
             {data.map((item, index) => (
               <article
                 key={`project-${index}`}
-                className="bg-[#2b2b2b] hover:bg-[#313131] transition-all duration-400 rounded-md shadow-md overflow-hidden hover:transform hover:scale-[1.01]"
+                className="dark:bg-[#2b2b2b] dark:hover:bg-[#313131] bg-[#f3f4f6] hover:bg-[#e5e7eb] transition-all duration-400 rounded-md shadow-md overflow-hidden hover:transform hover:scale-[1.01]"
               >
                 <img src={item.image} alt={item.title} loading="lazy" />
                 <div className="p-2 text-sm pb-0">
-                  <h3 className="text-color1 mb-1">{item.title}</h3>
-                  <p className="text-color2 text-xs">{item.description}</p>
+                  <h3 className="dark:text-color1 text-lightColor1 mb-1">
+                    {item.title}
+                  </h3>
+                  <p className="dark:text-color2 text-lightColor2 text-xs">
+                    {item.description}
+                  </p>
                 </div>
-                <div className="flex flex-row items-center justify-between text-xs text-color2 p-2">
+                <div className="flex flex-row items-center justify-between text-xs dark:text-color2 text-lightColor2 p-2">
                   <a
                     href={item.website}
                     target="_blank"
-                    className="p-1 flex flex-row items-center gap-x-1 w-fit bg-[#474747eb] hover:bg-[#3b3b3beb] rounded-md"
+                    rel="noreferrer"
+                    className="p-1 flex flex-row items-center gap-x-1 w-fit dark:bg-[#474747eb] bg-[#dadce1] dark:hover:bg-[#3b3b3beb] hover:bg-[#cdcfd4] rounded-md"
                   >
                     <CiGlobe />
                     <span>Visit Website</span>
@@ -109,7 +116,8 @@ const PersonalProjects = () => {
                   <a
                     href={item.github}
                     target="_blank"
-                    className="p-1 flex flex-row items-center gap-x-1 w-fit bg-[#474747eb] hover:bg-[#3b3b3beb] rounded-md"
+                    rel="noreferrer"
+                    className="p-1 flex flex-row items-center gap-x-1 w-fit dark:bg-[#474747eb] bg-[#dadce1] dark:hover:bg-[#3b3b3beb] hover:bg-[#cdcfd4] rounded-md"
                   >
                     <PiGithubLogoLight size={14} />
                     <span>Visit Github</span>
