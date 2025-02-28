@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.858faa93.css",
-    "main.js": "/static/js/main.a7761935.js",
+    "main.css": "/static/css/main.cc2009ac.css",
+    "main.js": "/static/js/main.faf4b98b.js",
     "static/media/movieland.png": "/static/media/movieland.f7dd803853fe8ae6750d.png",
     "static/media/hike.png": "/static/media/hike.49ae05e781842f70e9f1.png",
     "static/media/winstoninvestment.png": "/static/media/winstoninvestment.537872d03c336fa90837.png",
@@ -23,11 +23,11 @@
     "static/media/qwqer.png": "/static/media/qwqer.94e90adaf77195d8ec43.png",
     "static/media/bullion.png": "/static/media/bullion.7164f0fa7e8adadf732e.png",
     "index.html": "/index.html",
-    "main.858faa93.css.map": "/static/css/main.858faa93.css.map",
-    "main.a7761935.js.map": "/static/js/main.a7761935.js.map"
+    "main.cc2009ac.css.map": "/static/css/main.cc2009ac.css.map",
+    "main.faf4b98b.js.map": "/static/js/main.faf4b98b.js.map"
   },
   "entrypoints": [
-    "static/css/main.858faa93.css",
-    "static/js/main.a7761935.js"
+    "static/css/main.cc2009ac.css",
+    "static/js/main.faf4b98b.js"
   ]
 }
