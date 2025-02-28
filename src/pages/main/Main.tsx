@@ -14,6 +14,11 @@ const Main = () => {
   const handleDarkMode = () => {
     setDarkMode(!darkMode);
     document.body.classList.toggle("dark");
+    if (darkMode) {
+      document.body.style.backgroundColor = "#fff";
+    } else {
+      document.body.style.backgroundColor = "#222";
+    }
   };
 
   return (
@@ -26,15 +31,15 @@ const Main = () => {
         <Contact />
 
         <div className="fixed bottom-3 left-0 z-10 w-full flex justify-center">
-          <div className="mx-auto flex items-center justify-between max-w-max hover:p-2 transition-all duration-300 w-full gap-x-5 rounded-full border border-black/10 backdrop-blur-md py-1 px-1">
+          <div className="mx-auto flex items-center justify-between max-w-max hover:p-2 transition-all duration-300 w-full gap-x-5 rounded-full  dark:bg-lightColor1 bg-color1 dark:bg-opacity-60 bg-opacity-60 backdrop-blur-md py-1 px-1">
             <a
-              className="rounded-full p-2 dark:text-color2 text-lightColor2 dark:hover:bg-black/30 hover:bg-black/10 transition-all duration-300"
+              className="rounded-full p-2 dark:text-color1 text-lightColor2 dark:hover:bg-black/30 hover:bg-black/10 transition-all duration-300"
               href="#"
             >
               <GoHome size={20} />
             </a>
             <button
-              className="rounded-full p-2 dark:text-color2 text-lightColor2 dark:hover:bg-black/30 hover:bg-black/10 transition-all duration-300"
+              className="rounded-full p-2 dark:text-color1 text-lightColor2 dark:hover:bg-black/30 hover:bg-black/10 transition-all duration-300"
               onClick={handleDarkMode}
             >
               {darkMode ? <CiLight size={20} /> : <BsMoonStars size={19} />}

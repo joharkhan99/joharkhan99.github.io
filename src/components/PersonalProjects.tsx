@@ -1,6 +1,6 @@
 import React from "react";
 import "./projects.css";
-import { CiGlobe } from "react-icons/ci";
+import { CiClock2, CiGlobe } from "react-icons/ci";
 import { PiGithubLogoLight } from "react-icons/pi";
 
 const PersonalProjects = () => {
@@ -125,6 +125,10 @@ const PersonalProjects = () => {
                 </div>
               </article>
             ))}
+            <div className="p-3 text-sm text-color2 dark:text-color2 dark:bg-[#2b2b2b] dark:hover:bg-[#313131] bg-[#f3f4f6] hover:bg-[#e5e7eb] rounded-md flex flex-row gap-x-2 items-center">
+              <CiClock2 />
+              More Coming Soon...
+            </div>
           </main>
         </div>
       </div>

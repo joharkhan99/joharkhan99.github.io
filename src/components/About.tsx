@@ -36,41 +36,44 @@ const About = () => {
       <div className="text-sm my-10">
         <p className="mb-1 dark:text-color1 text-lightColor1">About</p>
         <p className="dark:text-color2 text-lightColor2">
-          I’m a{" "}
-          <span className="dark:text-color1 text-lightColor1">
+          I’m a
+          <span className="dark:text-color1 text-lightColor1 px-1">
             software engineer
-          </span>{" "}
-          who enjoys building things that work well and make sense. I’ve worked
-          with{" "}
-          <span className="dark:text-color1 text-lightColor1">
-            startups, service-based companies, and freelance clients
           </span>
-          , building{" "}
-          <span className="dark:text-color1 text-lightColor1">
-            web and mobile apps
+          who enjoys building things that work well and make sense. I’ve been
+          fortunate to work with
+          <span className="dark:text-color1 text-lightColor1 px-1">
+            startups, service companies, and freelance clients,
           </span>
-          , integrating systems, and solving real-world problems. I spend most
-          of my time writing code, fixing bugs, and figuring out how to make
-          things run smoother.
-          <br />
-          <br />I started out just being curious about how websites work, and
-          over time, that curiosity turned into a job I genuinely enjoy. I’ve
-          built web and mobile apps, worked with data, and worked with various{" "}
-          <span className="dark:text-color1 text-lightColor1">APIs</span>. It’s
-          cool to see an idea turn into something people can actually use.
+          building
+          <span className="dark:text-color1 text-lightColor1 px-1">
+            web and mobile apps,
+          </span>
+          integrating systems, and tackling real-world problems. Most days,
+          you'll find me writing code, squashing bugs, and trying to figure out
+          smarter ways to do things.
           <br />
           <br />
-          When I’m not coding, I’m usually reading up on something new in tech
-          or experimenting with side projects. I also like checking out
-          <span className="dark:text-color1 text-lightColor1">
-            {" "}
+          How'd I get here?
+          <span className="dark:text-color1 text-lightColor1 px-1">
+            Curiosity.
+          </span>
+          Plain and simple. I wanted to know how websites ticked, and that
+          turned into a job I actually like. It's pretty cool to take an idea
+          and turn it into something real people use.
+          <br />
+          <br />
+          When I’m not coding, I’m usually diving into something new in tech or
+          experimenting with side projects. I also enjoy checking out
+          <span className="dark:text-color1 text-lightColor1 px-1">
             open-source projects
-          </span>{" "}
-          and contributing where I can. It’s a good way to learn and help out at
-          the same time.
+          </span>
+          and contributing when I can – it's a great way to learn and give back.
           <br />
           <br />
-          That’s pretty much me – straightforward, curious, and always building.
+          So, that’s me – straightforward, curious, and always looking to build
+          something better. I'm not trying to be a know-it-all, just someone who
+          enjoys making things work.
         </p>
       </div>
 
