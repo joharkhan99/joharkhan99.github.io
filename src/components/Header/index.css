@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Ruwudu&display=swap');
+
+.ruwudu-regular {
+  font-family: "Ruwudu", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.text-fill-effect {
+  display: inline-block;
+  transition: background-position 1.5s ease-in-out;
+  text-decoration: none;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px white;
+  background-image: linear-gradient(0deg, white 50%, transparent 50%);
+  background-size: 100% 200%;
+  background-position: top;
+}
+
+.text-fill-effect:hover {
+  background-position: bottom;
+}
+
+.nav-overlay {
+  background: #95C11F;
+  /* Initial clip-path set as a circle of 0% radius at the top right */
+  clip-path: circle(0% at 100% 0%);
+}
+
+/* Animation for opening using a circular clip-path */
+@keyframes morph {
+  0% {
+    clip-path: circle(0% at 100% 0%);
+  }
+
+  50% {
+    /* Intermediate state: circle expands and center moves to mid-screen */
+    clip-path: circle(70% at 50% 50%);
+  }
+
+  100% {
+    /* Final state: large circle covering the screen, centered at bottom left */
+    clip-path: circle(150% at 0% 100%);
+  }
+}
+
+.animate-morph {
+  animation: morph 1s forwards ease-in-out;
+}
+
+/* Reverse animation for closing using the same circular values in reverse */
+@keyframes morphReverse {
+  0% {
+    clip-path: circle(150% at 0% 100%);
+  }
+
+  50% {
+    clip-path: circle(70% at 50% 50%);
+  }
+
+  100% {
+    clip-path: circle(0% at 100% 0%);
+  }
+}
+
+.animate-morphReverse {
+  animation: morphReverse 1s forwards ease-in-out;
+}
+
+/* Fade in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.6s forwards ease-out;
+}
+
+/* Fade out animation */
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  to {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+}
+
+.animate-fadeOut {
+  animation: fadeOut 0.6s forwards ease-in;
+}
+
+.navbar-content::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge add Firefox */
+.navbar-content {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  /* Firefox */
+}

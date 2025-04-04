@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import GenieVisionAI from "./pages/privacy-policies/genie-vision-ai.tsx";
 import UnitGuru from "./pages/privacy-policies/unit-guru.tsx";
-import Main from "./pages/main/Main.tsx";
+import Main from "./pages/Main/index.tsx";
 
 function App() {
   return (

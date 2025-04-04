@@ -1,0 +1,50 @@
+.services-container {
+  /* Using CSS columns to display two per row */
+  max-width: 1200px;
+  padding: 0 20px;
+  column-count: 2;
+  /* column-gap: 0; */
+  /* Remove extra gaps */
+}
+
+.category {
+  /* Ensure each item works well within a column */
+  display: inline-block;
+  width: 100%;
+  break-inside: avoid;
+  margin-bottom: 0;
+  /* No extra bottom margin */
+}
+
+.line-wrapper {
+  margin-bottom: 0;
+}
+
+.line-svg svg {
+  display: block;
+}
+
+.line-svg svg line {
+  stroke: #fff;
+  stroke-width: 10;
+}
+
+.line-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}

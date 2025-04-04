@@ -296,7 +296,7 @@ export const projectsData: Project[] = [
     github: null,
   },
   {
-    id: "auto-inventory-01", type: ProjectType.WEBSITE, mainTitle: "Car Management Platform", secondaryTitle: "Car Management Platform", primaryColor: "#503e9d", transparentColor: "rgb(216, 207, 255)", tagline: "Automotive Inventory & Sales Management System", role: "Full Stack Developer", year: "2025", services: "Full Stack Development, System Architecture, Backend & Frontend Development, Financial Module Implementation", industry: "Automotive, Inventory Management, Sales, Financial Operations", description: "Developed a car management platform for a Japanese dealership while working with Kaspar Consulting Services. The system tracks vehicle inventory, manages sales pipelines, handles payments and invoices, and offers detailed financial reporting.", challenge: "The client needed a complete solution to manage their dealership operations. They wanted to track vehicles, manage the entire sales process, handle financial transactions, and generate clear reports with support for multiple user roles and integration with existing accounting systems.", approach: "I designed a web-based system that digitized their workflows using PHP, Laravel, MySQL, and JavaScript. The solution streamlined operations and integrated smoothly with their current accounting software.", process: [{ name: "Planning", description: "Mapped the client’s workflows and designed a system architecture that digitized and optimized their processes." }, { name: "Implementation", description: "Built a robust backend, created a responsive admin dashboard, and developed modules for vehicle inventory, sales tracking, financial operations, and user management." }, { name: "Testing", description: "Tested the system for accuracy and ease of use, refined features like workflow customization and multilingual support, ensuring the system met the client’s needs." }, { name: "Launch", description: "The platform reduced inventory management time by 65%, cut sales processing time from days to hours, and improved financial reporting accuracy by 40%." }], featureImage: require("../assets/portfolio/automative/feature.png"),
+    id: "auto-inventory-01", type: ProjectType.WEBSITE, mainTitle: "Car Management Platform", secondaryTitle: "Car Management Platform", primaryColor: "#503e9d", transparentColor: "rgb(216, 207, 255)", tagline: "Automotive Inventory & Sales Management System", role: "Full Stack Developer", year: "2025", services: "Full Stack Development, System Architecture, Backend & Frontend Development, Financial Module Implementation", industry: "Automotive Sales & Financial Operations", description: "Developed a car management platform for a Japanese dealership while working with Kaspar Consulting Services. The system tracks vehicle inventory, manages sales pipelines, handles payments and invoices, and offers detailed financial reporting.", challenge: "The client needed a complete solution to manage their dealership operations. They wanted to track vehicles, manage the entire sales process, handle financial transactions, and generate clear reports with support for multiple user roles and integration with existing accounting systems.", approach: "I designed a web-based system that digitized their workflows using PHP, Laravel, MySQL, and JavaScript. The solution streamlined operations and integrated smoothly with their current accounting software.", process: [{ name: "Planning", description: "Mapped the client’s workflows and designed a system architecture that digitized and optimized their processes." }, { name: "Implementation", description: "Built a robust backend, created a responsive admin dashboard, and developed modules for vehicle inventory, sales tracking, financial operations, and user management." }, { name: "Testing", description: "Tested the system for accuracy and ease of use, refined features like workflow customization and multilingual support, ensuring the system met the client’s needs." }, { name: "Launch", description: "The platform reduced inventory management time by 65%, cut sales processing time from days to hours, and improved financial reporting accuracy by 40%." }], featureImage: require("../assets/portfolio/automative/feature.png"),
     featureClean: require("../assets/portfolio/automative/feature.png"),
     highlights: [
       {
@@ -386,6 +386,82 @@ export const projectsData: Project[] = [
     ],
     webLink: "http://beaumonde-estate.com/",
     github: null,
+  },
+  {
+    id: "nfluencer-mobile-01",
+    type: ProjectType.MOBILE,
+    mainTitle: "Nfluencer Mobile App",
+    secondaryTitle: "NFT-Based Services on the Go",
+    primaryColor: "#5c3ec7",
+    transparentColor: "#e0cbfd",
+    tagline: "Sell services and NFTs with a native mobile experience",
+    role: "Mobile App Developer",
+    year: "2025",
+    services: "Mobile App Development, React Native, Expo, Tailwind CSS, Payment Integration",
+    industry: "Gig Economy, NFTs, Digital Services",
+    description: "Built a mobile app for NFLUENCER using React Native and Expo. The app lets influencers and creators sell services with NFT digital assets as add-ons. It mixes blockchain features with traditional payment options like Stripe and PayPal. The design is clean and user friendly, making it simple to manage gigs on the go.",
+    challenge: "The client wanted a mobile app that kept all the key features of the NFLUENCER web platform, including the marketplace, NFT tools, messaging, and payment systems, but in a format that works well on mobile. The challenge was to ensure fast performance and ease of use on various devices.",
+    approach: "I used React Native with Expo for a cross-platform solution. I adapted the web design for mobile, focusing on simple navigation and clear access to key features. Secure payments and a smooth NFT creation process were also priorities.",
+    process: [
+      {
+        name: "plan",
+        description: "Adapted the design for mobile and planned the key features to ensure a smooth user experience."
+      },
+      {
+        name: "build",
+        description: "Developed the mobile app with React Native, connected it to the backend, and added secure payment options."
+      },
+      {
+        name: "test",
+        description: "Tested the app on different devices to ensure fast performance and ease of use."
+      },
+      {
+        name: "launch",
+        description: "Released the app and monitored its performance to make sure it met user needs."
+      }
+    ],
+    featureImage: require("../assets/portfolio/nfluencer/6.png"),
+    featureClean: require("../assets/portfolio/nfluencer/6.png"),
+    highlights: [
+      {
+        original: require("../assets/portfolio/nfluencer/16.jpeg"),
+        thumbnail: require("../assets/portfolio/nfluencer/16.jpeg"),
+      },
+      {
+        original: require("../assets/portfolio/nfluencer/13.jpg"),
+        thumbnail: require("../assets/portfolio/nfluencer/13.jpg"),
+      },
+      {
+        original: require("../assets/portfolio/nfluencer/14.jpg"),
+        thumbnail: require("../assets/portfolio/nfluencer/14.jpg"),
+      },
+      {
+        original: require("../assets/portfolio/nfluencer/7.png"),
+        thumbnail: require("../assets/portfolio/nfluencer/7.png"),
+      },
+      {
+        original: require("../assets/portfolio/nfluencer/8.png"),
+        thumbnail: require("../assets/portfolio/nfluencer/8.png"),
+      },
+      {
+        original: require("../assets/portfolio/nfluencer/9.jpeg"),
+        thumbnail: require("../assets/portfolio/nfluencer/9.jpeg"),
+      },
+      {
+        original: require("../assets/portfolio/nfluencer/10.jpg"),
+        thumbnail: require("../assets/portfolio/nfluencer/10.jpg"),
+      },
+      {
+        original: require("../assets/portfolio/nfluencer/11.jpg"),
+        thumbnail: require("../assets/portfolio/nfluencer/11.jpg"),
+      },
+      {
+        original: require("../assets/portfolio/nfluencer/15.jpeg"),
+        thumbnail: require("../assets/portfolio/nfluencer/15.jpeg"),
+      },
+    ],
+    webLink: null,
+    github: "https://github.com/joharkhan99/Nfluencer-Mobile-App",
   },
   {
     id: "bueno-express-01",

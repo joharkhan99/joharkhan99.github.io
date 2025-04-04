@@ -1,0 +1,100 @@
+.loader {
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100vh;
+  /* Animate container width over 0.5s with no delay */
+  transition: width 0.5s ease;
+  overflow: hidden;
+  scroll-behavior: smooth;
+}
+
+.loader__tile {
+  transition: width 0.7s ease;
+}
+
+/* Staggered delays for each tile */
+.loader__tile:nth-child(1) {
+  top: calc((1 - 1) * 20%);
+  transition-delay: 0s;
+}
+
+.loader__tile:nth-child(2) {
+  top: calc((2 - 1) * 20%);
+  transition-delay: 0.2s;
+}
+
+.loader__tile:nth-child(3) {
+  top: calc((3 - 1) * 20%);
+  transition-delay: 0.4s;
+}
+
+.loader__tile:nth-child(4) {
+  top: calc((4 - 1) * 20%);
+  transition-delay: 0.6s;
+}
+
+.loader__tile:nth-child(5) {
+  top: calc((5 - 1) * 20%);
+  transition-delay: 0.8s;
+}
+
+/* When active, expand the loader container */
+.loader--active {
+  width: 100vw;
+  /* No additional transition delay */
+  transition-delay: 0s;
+}
+
+/* When active, each tile expands with staggered delays as above */
+.loader--active .loader__tile {
+  width: 100%;
+}
+
+.loader--active .loader__tile:nth-child(1) {
+  transition-delay: 0s;
+}
+
+.loader--active .loader__tile:nth-child(2) {
+  transition-delay: 0.2s;
+}
+
+.loader--active .loader__tile:nth-child(3) {
+  transition-delay: 0.4s;
+}
+
+.loader--active .loader__tile:nth-child(4) {
+  transition-delay: 0.6s;
+}
+
+.loader--active .loader__tile:nth-child(5) {
+  transition-delay: 0.8s;
+}
+
+/* for gallery carousel */
+.image-gallery {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.image-gallery-slide {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.image-gallery-slide img {
+  width: 100%;
+  height: 600px;
+  object-fit: cover !important;
+  object-position: top;
+}
+
+.fullscreen .image-gallery-slide img {
+  object-fit: contain !important;
+}
+
+.fullscreen .image-gallery-slide img {
+  height: 100vh !important;
+}
