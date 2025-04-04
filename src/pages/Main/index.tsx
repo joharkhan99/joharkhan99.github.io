@@ -11,6 +11,7 @@ import About from "../../components/About/index.tsx";
 import Loader from "../../components/Loader/index.tsx";
 import "../../assets/fonts/DeliriumNcv.ttf";
 import FontFaceObserver from "fontfaceobserver";
+import ScrollAnimatedText from "../../components/ScrollAnimatedText/index.tsx";
 
 const Main = () => {
   const lenisRef = useRef<any>(null);
@@ -100,6 +101,7 @@ const Main = () => {
           <About />
           <Projects lenisRef={lenisRef} />
           <OtherProjects />
+          <ScrollAnimatedText />
         </main>
       )}
     </>
