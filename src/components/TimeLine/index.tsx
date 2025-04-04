@@ -22,7 +22,9 @@ const TimeLine = ({ process }: Props) => {
                 <br />
                 {p.name}
               </div>
-              <p className="text-sm mt-5 font-normal">{p.description}</p>
+              <p className="text-sm mt-5 font-normal text-[#b3b3b3]">
+                {p.description}
+              </p>
             </div>
           );
         })}

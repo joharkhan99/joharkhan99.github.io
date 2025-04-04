@@ -125,7 +125,7 @@ const ProjectModal: React.FC<ProjectModalProps> = ({
           >
             <IoIosArrowRoundBack size={30} />
           </button>
-          <span className="text-xs font-normal">
+          <span className="text-xs font-normal text-[#b3b3b3]">
             Projects / {selectedProject?.mainTitle}
           </span>
         </div>
@@ -141,33 +141,43 @@ const ProjectModal: React.FC<ProjectModalProps> = ({
               </span>
             </div>
 
-            <p className="text-base">{selectedProject?.description}</p>
+            <p className="text-base text-[#b3b3b3]">
+              {selectedProject?.description}
+            </p>
           </div>
           <div className="w-fit">
             <div className="flex flex-col items-start md:gap-12 gap-5">
               <div className="flex flex-col items-start gap-2">
-                <div className="text-sm tracking-[8px]">ROLE</div>
+                <div className="text-sm tracking-[8px] text-[#b3b3b3]">
+                  ROLE
+                </div>
                 <span className="text-white text-base">
                   {selectedProject?.role}
                 </span>
               </div>
 
               <div className="flex flex-col items-start gap-2">
-                <div className="text-sm tracking-[8px]">YEAR</div>
+                <div className="text-sm tracking-[8px] text-[#b3b3b3]">
+                  YEAR
+                </div>
                 <span className="text-white text-base">
                   {selectedProject?.year}
                 </span>
               </div>
 
               <div className="flex flex-col items-start gap-2">
-                <div className="text-sm tracking-[8px]">SERVICES</div>
+                <div className="text-sm tracking-[8px] text-[#b3b3b3]">
+                  SERVICES
+                </div>
                 <span className="text-white text-base">
                   {selectedProject?.services}
                 </span>
               </div>
 
               <div className="flex flex-col items-start gap-2">
-                <div className="text-sm tracking-[8px]">INDUSTRY</div>
+                <div className="text-sm tracking-[8px] text-[#b3b3b3]">
+                  INDUSTRY
+                </div>
                 <span className="text-white text-base">
                   {selectedProject?.industry}
                 </span>
@@ -207,7 +217,7 @@ const ProjectModal: React.FC<ProjectModalProps> = ({
               <div className="text-white font-bold md:text-3xl text-xl mb-3">
                 The Challenge
               </div>
-              <p className="font-normal text-base">
+              <p className="font-normal text-base text-[#b3b3b3]">
                 {selectedProject?.challenge}
               </p>
             </div>
@@ -216,7 +226,7 @@ const ProjectModal: React.FC<ProjectModalProps> = ({
               <div className="text-white font-bold md:text-3xl text-xl mb-3">
                 My Approach
               </div>
-              <p className="font-normal text-base">
+              <p className="font-normal text-base text-[#b3b3b3]">
                 {selectedProject?.approach}
               </p>
             </div>
@@ -228,7 +238,7 @@ const ProjectModal: React.FC<ProjectModalProps> = ({
               <TimeLine process={selectedProject?.process} />
             </div>
 
-            <div className="w-full mt-5 select-none">
+            <div className="w-full mt-5 select-none text-[#b3b3b3]">
               <div className="text-white font-bold text-3xl mb-9">
                 Project Highlights
               </div>
