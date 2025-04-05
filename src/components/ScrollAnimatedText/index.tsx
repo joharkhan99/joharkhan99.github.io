@@ -72,22 +72,22 @@ const ScrollAnimatedText = () => {
       className="py-40 overflow-hidden relative mb-[500px]"
     >
       <div className="container mx-auto flex flex-col gap-8">
-        <div className="transform w-[200vw] bg-[#95C11F] translate-x-[-20%] z-10">
+        <div className="transform w-[200vw] bg-[#95C11F] py-4 translate-x-[-20%] z-10">
           <h2
             ref={textRef1}
-            className="text-3xl md:text-9xl lg:text-[80px] text-white font-bold whitespace-nowrap text-center w-full relative left-[40%]"
+            className="text-3xl md:text-4xl lg:text-5xl text-white font-bold whitespace-nowrap text-center w-full relative left-[40%]"
             style={{
               transform: "translateX(-70%)",
             }}
           >
-            DESIGN · BUILD · SHIP
+            DESIGN · BUILD · TEST · SHIP
           </h2>
         </div>
 
-        <div className="transform w-[200vw] bg-[#95C11F] -translate-x-[4%]">
+        <div className="transform w-[200vw] bg-[#95C11F] py-4 -translate-x-[4%]">
           <h2
             ref={textRef2}
-            className="text-3xl md:text-9xl lg:text-[80px] text-white font-bold whitespace-nowrap text-center relative left-[60%]"
+            className="text-3xl md:text-4xl lg:text-5xl text-white font-bold whitespace-nowrap text-center relative left-[60%]"
             style={{
               transform: "translateX(-60%)",
             }}
