@@ -176,6 +176,14 @@ const Header = ({ lenisRef }: { lenisRef: any }) => {
                     <GoArrowUpRight size={25} />
                   </a>
                   <a
+                    href="https://upwork.com/freelancers/joharkhan3"
+                    target="_blank"
+                    className="text-white flex flex-row gap-0 items-center font-bold hover:underline uppercase"
+                  >
+                    <span className="text-base font-semibold">Upwork</span>
+                    <GoArrowUpRight size={25} />
+                  </a>
+                  <a
                     href="https://www.instagram.com/johar_khan99"
                     target="_blank"
                     className="text-white flex flex-row gap-0 items-center font-bold hover:underline uppercase"

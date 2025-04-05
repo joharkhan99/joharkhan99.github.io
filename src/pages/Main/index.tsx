@@ -12,6 +12,7 @@ import Loader from "../../components/Loader/index.tsx";
 import "../../assets/fonts/DeliriumNcv.ttf";
 import FontFaceObserver from "fontfaceobserver";
 import ScrollAnimatedText from "../../components/ScrollAnimatedText/index.tsx";
+import Footer from "../../components/Footer/index.tsx";
 
 const Main = () => {
   const lenisRef = useRef<any>(null);
@@ -65,43 +66,46 @@ const Main = () => {
       {isLoading ? (
         <Loader />
       ) : (
-        <main id="main2">
-          <BackToTop backToTopClick={backToTopClick} />
-          <Header lenisRef={lenisRef} />
-          <HeroSection />
-          <AnimatedGrain />
-          <AnimatedCursor
-            innerSize={0}
-            outerSize={30}
-            color="255,255,255"
-            outerAlpha={0}
-            innerScale={0}
-            trailingSpeed={1}
-            outerScale={3} // radius when on focus
-            clickables={[
-              "a",
-              'input[type="text"]',
-              'input[type="email"]',
-              'input[type="number"]',
-              'input[type="submit"]',
-              'input[type="image"]',
-              "label[for]",
-              "select",
-              "textarea",
-              "button",
-              ".link",
-              ".next-project",
-            ]}
-            outerStyle={{
-              // mixBlendMode: "difference",
-              borderWidth: 1,
-              borderColor: "#fff",
-            }}
-          />
-          <About />
-          <Projects lenisRef={lenisRef} />
-          <OtherProjects />
-          <ScrollAnimatedText />
+        <main>
+          <div>
+            <BackToTop backToTopClick={backToTopClick} />
+            <Header lenisRef={lenisRef} />
+            <HeroSection />
+            <AnimatedGrain />
+            <AnimatedCursor
+              innerSize={0}
+              outerSize={30}
+              color="255,255,255"
+              outerAlpha={0}
+              innerScale={0}
+              trailingSpeed={1}
+              outerScale={3} // radius when on focus
+              clickables={[
+                "a",
+                'input[type="text"]',
+                'input[type="email"]',
+                'input[type="number"]',
+                'input[type="submit"]',
+                'input[type="image"]',
+                "label[for]",
+                "select",
+                "textarea",
+                "button",
+                ".link",
+                ".next-project",
+              ]}
+              outerStyle={{
+                // mixBlendMode: "difference",
+                borderWidth: 1,
+                borderColor: "#fff",
+              }}
+            />
+            <About />
+            <Projects lenisRef={lenisRef} />
+            <OtherProjects />
+            <ScrollAnimatedText />
+          </div>
+          <Footer />
         </main>
       )}
     </>

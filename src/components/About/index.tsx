@@ -13,13 +13,13 @@ const About = () => {
       <div className="flex flex-col md:flex-row items-start">
         <div className="w-full text-xl md:order-1 order-2">
           <RevealOnScroll>
-            I’m a<span className="text-color1 px-1">software engineer</span> who
+            I’m a<span className="text-color1 px-1">software engineer</span>who
             builds useful things. I’ve helped startups, agencies, and
             freelancers create apps, connect systems, and solve problems. Every
             day, I write code, fix bugs, and find better ways to work.
             <br />
             <br />I got here from
-            <span className="text-color1 px-1">curiosity</span> about how
+            <span className="text-color1 px-1">curiosity</span>about how
             websites work—it turned into a career which I genuinely enjoy.
             <br />
             <br />
@@ -28,12 +28,12 @@ const About = () => {
             <br />
             <br />
             Right now, I’m working with
-            <span className="text-color1 px-1">TheCryptoReviewer</span>, a
+            <span className="text-color1 px-1">TheCryptoReviewer,</span>a
             startup offering a risk-free crypto simulator.
           </RevealOnScroll>
 
           <FadeInSection>
-            <a className="green-btn light my-10" href="#">
+            <button className="green-btn light my-10">
               <span className="text-white leading-none relative z-[5] mr-8 uppercase">
                 More About Me
               </span>
@@ -59,7 +59,7 @@ const About = () => {
                   stroke-linejoin="round"
                 />
               </svg>
-            </a>
+            </button>
           </FadeInSection>
         </div>
 
