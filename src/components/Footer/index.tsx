@@ -3,11 +3,12 @@ import "./index.css";
 import { FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import { LuGithub } from "react-icons/lu";
 import { SiUpwork } from "react-icons/si";
+import ServicesSection from "../ServicesSection/index.tsx";
 
 const Footer = () => {
   return (
-    <footer className="relative mt-96 bg-[#95C11F] py-36 px-10">
-      <div className="flex justify-between md:flex-row flex-col gap-10">
+    <footer className="relative mt-96 bg-[#95C11F] py-36 pt-0 pb-0">
+      <div className="flex justify-between md:flex-row flex-col gap-10 px-10 pt-36 pb-36">
         <div className="flex items-start justify-between flex-col gap-6 w-full">
           <h1 className="lg:text-[6vw] text-[60px] text-white font-extrabold leading-[55px] md:leading-[80px]">
             Let's
@@ -99,6 +100,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
+      <ServicesSection />
     </footer>
   );
 };

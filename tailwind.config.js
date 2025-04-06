@@ -41,12 +41,17 @@ module.exports = {
             borderRadius: "42% 58% 68% 32% / 34% 42% 58% 66%",
           },
         },
+        marquee: {
+          "0%": { transform: "translateX(0)" },
+          "100%": { transform: "translateX(-50%)" },
+        },
       },
       animation: {
         "gradient-x": "gradientX 15s ease infinite",
         elasticus: "elasticus 10.2s cubic-bezier(1,1,1,1) infinite",
         blob: "blob 10s ease-in-out infinite",
         "spin-slow": "spin 10s linear infinite",
+        marquee: "marquee 20s linear infinite",
       },
     },
   },

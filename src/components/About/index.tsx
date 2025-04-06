@@ -13,7 +13,8 @@ const About = () => {
       <div className="flex flex-col md:flex-row items-start">
         <div className="w-full text-xl md:order-1 order-2">
           <RevealOnScroll>
-            I’m a<span className="text-color1 px-1">software engineer</span>who
+            Hello there, I’m a
+            <span className="text-color1 px-1">software engineer</span>who
             builds useful things. I’ve helped startups, agencies, and
             freelancers create apps, connect systems, and solve problems. Every
             day, I write code, fix bugs, and find better ways to work.
@@ -72,8 +73,6 @@ const About = () => {
             />
           </div>
         </div>
-
-        {/* <div className="w-full"><Expertise /></div> */}
       </div>
     </div>
   );
