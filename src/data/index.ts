@@ -189,33 +189,33 @@ export const projectsData: Project[] = [
     mainTitle: "InfluIndex",
     secondaryTitle: "Influencer Marketing Platform",
     tagline: "Connecting brands with top influencers for real-time collaborations",
-    role: "Full Stack Developer",
+    role: "Full Stack Developer (Collaborative Team Project)",
     year: "2025",
     services: "UI/UX Design, Backend & Frontend Development, Real-time Chat, API Integrations",
     industry: "Digital Marketing, Influencer Marketing",
-    description: "InfluIndex is a comprehensive platform that connects brands, influencers, agencies, and admins. It allows brands to view influencer profiles, check their social stats, create campaigns, and invite influencers for collaborations. The platform also supports real-time communication via chat using socket.io, contract management, and detailed campaign tracking. Developed for a South American client with an agency, it was designed to serve local customers with an easy-to-use system that delivers accurate social media insights and streamlined collaboration.",
-    challenge: "The project had to handle multiple user roles while integrating various social media APIs for platforms like Instagram, YouTube, and TikTok. Ensuring real-time communication, secure contract management, and efficient API usage within a tight timeline was a major challenge. Balancing simplicity for end users with robust backend functionality required careful planning and execution.",
-    approach: "We built a user-friendly system that made it easy for brands and influencers to connect and collaborate. The platform was developed in phases, starting with clear user flows and a solid architecture. We focused on creating a simple interface backed by powerful integrations, real-time chat, and smart API caching to manage data efficiently.",
+    description: "InfluIndex is a comprehensive platform built collaboratively with another developer, designed to connect brands, influencers, agencies, and admins. Together, we enabled brands to view influencer profiles, check their social stats, create campaigns, and invite influencers for collaborations. The platform also supports real-time communication via chat using socket.io, contract management, and detailed campaign tracking. Developed for a South American client, our joint effort focused on delivering an easy-to-use system that provides accurate social media insights and streamlined collaboration.",
+    challenge: "Working as a small team, we needed to handle multiple user roles while integrating various social media APIs for platforms like Instagram, YouTube, and TikTok. Ensuring real-time communication, secure contract management, and efficient API usage within a tight timeline required close coordination and collaboration. Balancing simplicity for end users with robust backend functionality demanded careful planning and shared execution.",
+    approach: "As a team, we built a user-friendly system that made it easy for brands and influencers to connect and collaborate. We developed the platform in phases, starting with clear user flows and a solid architecture. Our joint focus was on creating a simple interface backed by powerful integrations, real-time chat, and smart API caching to manage data efficiently.",
     process: [
       {
         name: "Plan",
-        description: "Mapped out requirements and user flows for brands, influencers, agencies, and admins."
+        description: "Collaboratively mapped out requirements and user flows for brands, influencers, agencies, and admins."
       },
       {
         name: "Architecture",
-        description: "Defined the system architecture, selecting the right tools for social media integrations and real-time chat."
+        description: "Worked together to define the system architecture, selecting the right tools for social media integrations and real-time chat."
       },
       {
         name: "Design",
-        description: "Created a simple, intuitive interface and prototypes to ensure smooth user experience."
+        description: "Co-created a simple, intuitive interface and prototypes to ensure a smooth user experience."
       },
       {
         name: "Build",
-        description: "Developed the platform in phases, integrating key features like chat, contracts, and API caching."
+        description: "Developed the platform in phases as a team, integrating key features like chat, contracts, and API caching."
       },
       {
         name: "Test",
-        description: "Conducted thorough testing with real users to validate reliability and ease of use."
+        description: "Conducted thorough testing alongside each other with real users to validate reliability and ease of use."
       }
     ],
     primaryColor: "#1651ee",
